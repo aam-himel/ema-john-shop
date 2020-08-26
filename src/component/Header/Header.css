@@ -1,0 +1,36 @@
+.header {
+    width: 100% !important; 
+}
+
+.header .logo {
+    height: 10vh;
+    padding: 1.5rem 0;
+}
+
+.header .logo img {
+    width: 100%;
+}
+
+nav {
+    height: 7vh;
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav a {
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #c5aa6a;
+}
